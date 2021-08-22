@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  color: #202020;
+  background-color: #fafafa;
+}
+
+.header {
+  border-bottom: 1px solid #ca2100;
+  background-color: #db4c3f;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  height: 44px;
+  width: 100%;
+
+  img {
+    width: 24px;
+  }
+
+  nav {
+    height: 100%;
+    max-width: 923px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+.content {
+  display: flex;
+  max-width: 923px;
+  margin: auto;
+}
+
+.sidebar {
+  user-select: none;
+  width: 266px;
+  height: 100vh;
+  padding-top: 74px;
+  border: 1px solid #f1f1f1;
+  background-color: #fafafa;
+
+  div {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    &.active {
+      background: white;
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+  }
+}
+
+.tasks {
+  background-color: white;
+  height: 100vh;
+  width: calc(922px - 266px);
+  padding: 74px 30px 0;
+
+  .add-task-btn {
+    cursor: pointer;
+    .plus {
+      color: #dd4b39;
+      font-size: 18px;
+    }
+  }
+
+  .add-task-text {
+    color: #545454;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .add-task-dialog {
+    margin-top: 10px;
+    input {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      background-color: white;
+      height: 35px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .add-task-actions-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+
+      button {
+        cursor: pointer;
+        margin-right: 5px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        background-color: transparent;
+        font-weight: bold;
+        color: gray;
+      }
+
+      .add-btn {
+        background-color: #db4c3f;
+        color: white;
+        font-weight: bold;
+        &:disabled {
+          background-color: gray;
+        }
+      }
+    }
+  }
+
+  .task-item-container {
+    margin-top: 40px;
+    padding: 0 20px;
+    .task-item {
+      display: flex;
+      justify-content: space-between;
+      &:not(:last-child) {
+        border-bottom: 1px solid #ca2100;
+      }
+    }
+  }
+}
