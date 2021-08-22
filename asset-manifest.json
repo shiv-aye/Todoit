@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Todoit/static/css/main.a3d5543c.chunk.css",
+    "main.js": "/Todoit/static/js/main.2e3c67fd.chunk.js",
+    "main.js.map": "/Todoit/static/js/main.2e3c67fd.chunk.js.map",
+    "runtime-main.js": "/Todoit/static/js/runtime-main.d7a1b915.js",
+    "runtime-main.js.map": "/Todoit/static/js/runtime-main.d7a1b915.js.map",
+    "static/css/2.0440f8c5.chunk.css": "/Todoit/static/css/2.0440f8c5.chunk.css",
+    "static/js/2.87c57e39.chunk.js": "/Todoit/static/js/2.87c57e39.chunk.js",
+    "static/js/2.87c57e39.chunk.js.map": "/Todoit/static/js/2.87c57e39.chunk.js.map",
+    "index.html": "/Todoit/index.html",
+    "static/css/2.0440f8c5.chunk.css.map": "/Todoit/static/css/2.0440f8c5.chunk.css.map",
+    "static/css/main.a3d5543c.chunk.css.map": "/Todoit/static/css/main.a3d5543c.chunk.css.map",
+    "static/js/2.87c57e39.chunk.js.LICENSE.txt": "/Todoit/static/js/2.87c57e39.chunk.js.LICENSE.txt",
+    "static/media/logo.998db27d.png": "/Todoit/static/media/logo.998db27d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7a1b915.js",
+    "static/css/2.0440f8c5.chunk.css",
+    "static/js/2.87c57e39.chunk.js",
+    "static/css/main.a3d5543c.chunk.css",
+    "static/js/main.2e3c67fd.chunk.js"
+  ]
+}
